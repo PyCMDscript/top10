@@ -35,7 +35,7 @@ def calculate_performance(data, hours=1):
     return performance
 
 # Lire la liste des actifs depuis le fichier
-with open('/home/kalistan/Desktop/Crypto/cleaned_CSA.txt', 'r') as file:
+with open('cleaned_CSA.txt', 'r') as file:
     tickers = [line.strip() for line in file.readlines()]
 
 # Calculer la performance sur 1 heure pour chaque actif
